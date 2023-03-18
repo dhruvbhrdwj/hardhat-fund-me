@@ -20,7 +20,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
       log: true,
       args: [DECIMALS, INITIAL_ANSWER],
     });
-    log("Mocks Deployed!");
+    log("Mocks Deployed! You can check them here");
     log("------------------------------------------------");
   }
 };
